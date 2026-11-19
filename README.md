@@ -16,7 +16,7 @@ Port inicial del motor de inferencia TNY2 del proyecto TINY 2.1 a ESP32-S3, con 
 
 Descarga `TINY.BIN` de la carpeta `dos` del repositorio oficial: https://github.com/WollyMonjac/Tiny-2.1/tree/main/dos
 
-Cópialo exactamente como `data/TINY.BIN`. No se incluye en este ZIP. El firmware valida la cabecera `TNY2`, dimensiones y longitud del archivo.
+Cópialo exactamente como `data/TINY.BIN`. No se incluye en este repo. El firmware valida la cabecera `TNY2`, dimensiones y longitud del archivo.
 
 ## Arduino IDE 2.x — instalación
 
@@ -24,7 +24,7 @@ Cópialo exactamente como `data/TINY.BIN`. No se incluye en este ZIP. El firmwar
 2. En **Archivo > Preferencias**, añade esta URL en «URLs adicionales de gestor de placas»:
    `https://espressif.github.io/arduino-esp32/package_esp32_index.json`
 3. Abre **Herramientas > Placa > Gestor de placas**, busca `esp32` e instala **esp32 by Espressif Systems** (core 3.x).
-4. Descomprime el proyecto. Abre `TINY_ESP32_Neural_Terminal.ino` desde su carpeta. No muevas el `.ino` fuera de esa carpeta.
+4. Abre `TINY_ESP32_Neural_Terminal.ino` desde su carpeta. No muevas el `.ino` fuera de esa carpeta.
 5. Copia el modelo original en `data/TINY.BIN`.
 6. Instala el complemento LittleFS para IDE 2.x (véase «Subir LittleFS» más abajo).
 
